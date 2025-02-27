@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloudr</title>
+    <title>Cloudr - Tu Mejor Descanso</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,36 +18,51 @@
             padding: 20px;
             font-size: 24px;
         }
-        section {
-            padding: 20px;
-        }
         .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
+            margin: 20px;
             padding: 20px;
+            background: white;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            border-radius: 5px;
         }
         footer {
+            margin-top: 20px;
             background-color: #333;
             color: white;
             padding: 10px;
-            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <header>
-        Cloudr - Tu Mejor Descanso
-    </header>
-    <section>
-        <div class="container">
-            <h1>Bienvenido a Cloudr</h1>
-            <p>Descubre la mejor experiencia en descanso con nuestros colchones de calidad premium.</p>
-            <img src="https://via.placeholder.com/600x300" alt="Imagen de colchón">
+    <header>Cloudr - Tu Mejor Descanso</header>
+    <div class="container">
+        <h2>Bienvenido a Cloudr</h2>
+        <p>Descubre la mejor experiencia en descanso con nuestros colchones de calidad premium.</p>
+        <div class="image-container">
+            <img src="imagen-colchon.jpg" alt="Imagen de colchón">
         </div>
-    </section>
+        <div class="buttons">
+            <a href="#">Ver Productos</a>
+            <a href="#">Contacto</a>
+        </div>
+    </div>
     <footer>
         &copy; 2025 Cloudr. Todos los derechos reservados.
     </footer>
